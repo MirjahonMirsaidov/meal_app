@@ -50,6 +50,8 @@ class MealItem extends StatelessWidget {
       context,
       MealDetailScreen.routeName,
       arguments: id,
+    ).then(
+      (value) => print(value),
     );
   }
 
